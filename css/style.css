@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.nav-1{
+    width: 100%;
+    background: url('../Images/photo1631511569.jpeg') center / cover;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-1::before{
+    content: '';
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.left_content{
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+}
+
+.right_content{
+    display: flex;
+    width: 80%;
+    z-index: 2;
+}
+.left_content img{
+    width: 100%;
+    color: wheat;
+    height: 97%;
+}
+
+.right_content div{
+    margin: 30px 20px;
+}
+.right_content div a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.right_content div a:hover{
+    transition: 0.5s;
+    color:blue
+}
+
+.d-block{
+    height: 85vh;
+}
+
+.conts{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+
+.rows{
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    background: url('https://www.teahub.io/photos/full/36-368748_star-wars-the-rise-of-skywalker.jpg') center / cover;
+}
+
+.cardinfo1{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cardinfo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinfo{
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(253, 253, 253, 0.596);
+}
+.cardinfo h3{
+    text-align: center;
+}
